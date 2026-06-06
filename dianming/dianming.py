@@ -66,7 +66,7 @@ class RandomNameApp:
         self.result_var = tk.StringVar()
         self.result_var.set("就绪")
         result_label = tk.Label(self.root, textvariable=self.result_var,
-                                font=("微软雅黑", 56, "bold"), fg="#e74c3c",
+                                font=("微软雅黑", 56, "bold"), fg="#0000FF",
                                 bg="#ecf0f1", width=12, height=2, relief="ridge")
         result_label.pack(pady=10)
 
